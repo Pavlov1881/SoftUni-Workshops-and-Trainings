@@ -80,13 +80,21 @@ Each owner can edit their crypto offer. Clicking the [Edit] button for a specifi
 
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
     • Guest (not logged in) users can access the Home page.
+
     • Guest (not logged in) users can access the Login page and functionality.
+
     • Guest (not logged in) users can access the Register page and functionality.
+
     • Guest (not logged in) and Users (logged in) can access the All Crypto page (Listed all crypto offers).
+
     • Guest (not logged in) can access the Details page without functionality.
+
     • Users (logged in) can access the Home page.
+
     • Users (logged in) can access the Details page and functionality.
         ◦ Users (not crypto offer owners) can buy crypto.
         ◦ Users (crypto offer owners) can Edit and Delete the current crypto offer
+
     • Users (logged in) can access Create Offer page and functionality.
+    
     • Users (logged in) can access Logout functionality.
