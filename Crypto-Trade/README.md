@@ -79,6 +79,7 @@ Each owner can edit their crypto offer. Clicking the [Edit] button for a specifi
 ## Security Requirements
 
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
+
     • Guest (not logged in) users can access the Home page.
 
     • Guest (not logged in) users can access the Login page and functionality.
@@ -96,5 +97,31 @@ The Security Requirements are mainly access requirements. Configurations about w
         ◦ Users (crypto offer owners) can Edit and Delete the current crypto offer
 
     • Users (logged in) can access Create Offer page and functionality.
-    
+
     • Users (logged in) can access Logout functionality.
+
+For invalid path user will see:
+![Invalid path](./public/images/invalid%20page%20-screenshot.png)
+
+## Validation and Error Handling
+**Login / Register**
+
+    • The username should be at least five characters long
+
+    • The email should be at least ten character long
+
+    • The password should be at least four characters long
+
+    • The repeat password should be equal to the password
+
+**Crypto**
+
+    • The Name should be at least two characters
+
+    • The Price should be a positive number
+
+    • The Crypto Image should start with http:// or https://.
+
+    • The Description should be a minimum of 10 characters long.
+    
+    • The Payment Method must be one of the options
