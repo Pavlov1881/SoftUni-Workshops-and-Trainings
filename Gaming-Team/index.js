@@ -23,6 +23,6 @@ app.use(authMiddleware);
 app.use(routes);
 
 mongoose.set('strictQuery', false);
-mongoose.connect(`mongodb://127.0.0.1:27017/${databaseName}`);
+mongoose.connect(`mongodb+srv://Pavlov:1313@cluster0.r5ez2hh.mongodb.net/${databaseName}`);
 
 app.listen(3000, () => console.log('The server is listening on port 3000...'));
