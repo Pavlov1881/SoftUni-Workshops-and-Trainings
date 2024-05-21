@@ -123,5 +123,15 @@ For invalid path user will see:
     • The Crypto Image should start with http:// or https://.
 
     • The Description should be a minimum of 10 characters long.
-    
+
     • The Payment Method must be one of the options
+
+**Search for crypto**
+When you enter the search page, first, you must see all the crypto offers. Filter all matches by name and payment method (case insensitive).
+![Search page](./public/images/search%20page%204%20-screenshot.png)
+
+If there are no search matches, display:
+![Search page](./public/images/register%20page%202-screenshot.png)
+
+
+
