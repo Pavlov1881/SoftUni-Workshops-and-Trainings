@@ -6,6 +6,7 @@ The visitors can view the Home page and All Crypto catalog with available offers
 
 **Guest (not logged in)**
 The application should provide Guest (not logged in) users with the functionality to Login, Register, and view the Home page, All Crypto page, and the Details page.
+
 **Users (logged in)**
     • View the Home page and all other pages with logged-in navigation
     • View All Crypto page
