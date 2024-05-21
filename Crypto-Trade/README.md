@@ -17,4 +17,4 @@ The application should provide Guest (not logged in) users with the functionalit
 
 ## Application Pages
 
-**Home Page (For logged in users and logged-out users)**
+[Home Page](Crypto-Trade/public/images/homepage-screenshot.png)
