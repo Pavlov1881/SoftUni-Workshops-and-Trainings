@@ -17,4 +17,4 @@ The application should provide Guest (not logged in) users with the functionalit
 
 ## Application Pages
 
-[Home Page](Crypto-Trade/public/images/homepage-screenshot.png)
+[Home Page](https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings/blob/main/Crypto-Trade/public/images/homepage-screenshot.png)
