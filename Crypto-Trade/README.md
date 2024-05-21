@@ -25,5 +25,15 @@ Register a user inside the Database with a username, email, and password. Passwo
 ![Register Page](https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings/blob/main/Crypto-Trade/public/images/register%20page-screenshot.png)
 
 **Login Page (Logged Out User)**
-Logging an already registered user with the correct email and password. After successful login, you should redirect to the Home page.
+Logging an already registered user with the correct email and password. After successful login, page redirects to the Home page.
 ![Login Page](./public/images/login%20page-screenshot.png)
+
+**Logout (logged in user)**
+The logout action is available to logged-in users. Upon success, clear any session information and redirect the user to the Home page.
+
+**Crypto Catalog (For logged in users and logged out users)**
+List all crypto offers. Each offer must display information about the crypto image, the name, the price, payment, and a button for details about the specific crypto. As in the picture below:
+![Catalog Page](./public/images/catalog%20page-screenshot.png)
+Details button should be a link to the details page for the current crypto.
+If there are NO crypto offers in the Database yet, display "There are no crypto offers found! "
+![no crypto](./public/images/no%20crypto-screenshot.png)
