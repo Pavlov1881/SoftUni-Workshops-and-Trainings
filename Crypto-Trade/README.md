@@ -63,5 +63,37 @@ If the currently logged-in user is not the owner (a user who is not the creator 
 If the currently logged in user is not the owner and has already bought crypto, he should see [You have already bought this crypto].
 ![Details Page](./public/images/details%20page%204%20-screenshot.png)
 
+**Buy Crypto (logged in user who is not the current crypto owner)**
+Any registered user who is not the current owner of the crypto offer must be able to buy crypto (if any). 
+If he manages to buy the crypto successfully, his userId must be added to the collection of Buy a crypto and redirect the user to the Details page for the current crypto offer. If a user has once bought current crypto, he should see " You already bought these crypto coins.".
 
+**Create Offer (Logged in User)**
+The Create Offer page is available to logged-in users. It contains a form for adding a new crypto offer. Upon success, redirect the user to the All Crypto page.
 
+**Delete Offer (logged in user and owner of the current offer)**
+Each owner of the crypto offer must be able to click on the [Delete] button and delete the current crypto from the Database, and the user must be redirected to the All Crypto page.
+
+**Edit Offer (logged in user and owner of the current offer)**
+Each owner can edit their crypto offer. Clicking the [Edit] button for a specific offer on the details page should display the Edit page, all fields being populated with crypto data. It contains a form with input fields for all relevant properties. If successful, redirect the user to the current crypto details page.
+
+## Security Requirements
+
+The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
+
+    • Guest (not logged in) users can access the Home page.
+
+    • Guest (not logged in) users can access the Login page and functionality.
+
+    • Guest (not logged in) users can access the Register page and functionality.
+
+    • Guest (not logged in) and Users (logged in) can access the All Crypto page (Listed all crypto offers).
+
+    • Guest (not logged in) can access the Details page without functionality.
+
+    • Users (logged in) can access the Home page.
+
+    • Users (logged in) can access the Details page and functionality.
+        ◦ Users (not crypto offer owners) can buy crypto.
+        ◦ Users (crypto offer owners) can Edit and Delete the current crypto offer
+    • Users (logged in) can access Create Offer page and functionality.
+    • Users (logged in) can access Logout functionality.
