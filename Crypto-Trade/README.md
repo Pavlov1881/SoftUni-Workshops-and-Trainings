@@ -37,3 +37,21 @@ List all crypto offers. Each offer must display information about the crypto ima
 Details button should be a link to the details page for the current crypto.
 If there are NO crypto offers in the Database yet, display "There are no crypto offers found! "
 ![no crypto](./public/images/no%20crypto-screenshot.png)
+
+**Details Page - (for logged in users and logged out users)**
+All users should be able to see details. Clicking the Details button on the crypto card should display the details page. If the currently registered user is the creator of the crypto offer, the Edit and Delete buttons should be displayed. Otherwise, they should not be available.
+Information about the crypto:
+    • Name
+    • Payment method
+    • Price
+    • Description
+    • Buttons (Depending on the status of the currently logged in user)
+
+**Details Page (logged out users)**
+If there are no logged-in users, no buttons should be displayed.
+![Details Page](./public/images/details%20page%201%20-screenshot.png)
+
+**Details Page (logged in user and creator of the current offer)**
+If the currently logged-in user is the owner (the user who created the crypto offer), he should see the [Delete] and [Edit] buttons.
+![Details Page](./public/images/details%20page%202%20-screenshot.png)
+
