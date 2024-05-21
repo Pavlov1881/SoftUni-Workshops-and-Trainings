@@ -14,3 +14,7 @@ The application should provide Guest (not logged in) users with the functionalit
     • Access crypto details page [Details]
     • Buy crypto (if the current user is not the owner of the offer)
     • Delete or Edit the offer depending on the user's authentication (only for the owner of the current offer for crypto)
+
+## Application Pages
+
+**Home Page (For logged in users and logged-out users)**
