@@ -19,3 +19,7 @@ The application should provide Guest (not logged in) users with the functionalit
 
 **Home Page**
 ![Home Page](https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings/blob/main/Crypto-Trade/public/images/homepage-screenshot.png)
+
+**Register Page (Logged Out User)**
+Register a user inside the Database with a username, email, and password. Password inside the Database is hashed (used bcrypt), and both passwords must match! After successful registration, the page redirects to the Home page.
+![Register Page]()
