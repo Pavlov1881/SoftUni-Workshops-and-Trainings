@@ -3,6 +3,7 @@
 
 ## Application Overview
 The visitors can view the Home page and All Crypto catalog with available offers. They can also register with an email, username, and password, allowing them to create their offers for crypto trade and buy crypto (if the current user is not the owner of the crypto offer). Authors can edit or delete posts at any time.
+
 **Guest (not logged in)**
 The application should provide Guest (not logged in) users with the functionality to Login, Register, and view the Home page, All Crypto page, and the Details page.
 **Users (logged in)**
