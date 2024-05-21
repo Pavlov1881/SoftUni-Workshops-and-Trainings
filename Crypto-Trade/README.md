@@ -55,3 +55,13 @@ If there are no logged-in users, no buttons should be displayed.
 If the currently logged-in user is the owner (the user who created the crypto offer), he should see the [Delete] and [Edit] buttons.
 ![Details Page](./public/images/details%20page%202%20-screenshot.png)
 
+**Details Page (logged in user with available places)**
+If the currently logged-in user is not the owner (a user who is not the creator of this crypto offer) and has not bought that crypto, he should see a buy button.
+![Details Page](./public/images/details%20page%203%20-screenshot.png)
+
+**Details Page (logged in user already bought crypto)**
+If the currently logged in user is not the owner and has already bought crypto, he should see [You have already bought this crypto].
+![Details Page](./public/images/details%20page%204%20-screenshot.png)
+
+
+
