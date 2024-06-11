@@ -1,0 +1,20 @@
+{
+  "name": "softuni-workshops-and-trainings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings/issues"
+  },
+  "homepage": "https://github.com/Pavlov1881/SoftUni-Workshops-and-Trainings#readme"
+}
