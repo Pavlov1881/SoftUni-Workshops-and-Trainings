@@ -4,6 +4,8 @@ import BannerComponent from "./components/Banner"
 import AboutComponent from "./components/About"
 import GalleryComponent from "./components/Gallery"
 import ServicesComponent from "./components/Services"
+import ContactUsComponent from "./components/ContactUs"
+import FooterComponent from "./components/Footer"
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
 			<AboutComponent />
 			<GalleryComponent />
 			<ServicesComponent />
+			<ContactUsComponent />
+			<FooterComponent />
 		</>
 	)
 }
