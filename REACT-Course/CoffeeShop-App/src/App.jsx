@@ -6,6 +6,7 @@ import GalleryComponent from "./components/Gallery"
 import ServicesComponent from "./components/Services"
 import ContactUsComponent from "./components/ContactUs"
 import FooterComponent from "./components/Footer"
+import CopyrightsComponent from "./components/Copyrights"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 			<ServicesComponent />
 			<ContactUsComponent />
 			<FooterComponent />
+			<CopyrightsComponent />
 		</>
 	)
 }
