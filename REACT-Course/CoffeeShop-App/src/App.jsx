@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import BannerComponent from "./components/Banner"
 import AboutComponent from "./components/About"
 import GalleryComponent from "./components/Gallery"
+import ServicesComponent from "./components/Services"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
 			<BannerComponent />
 			<AboutComponent />
 			<GalleryComponent />
+			<ServicesComponent />
 		</>
 	)
 }
