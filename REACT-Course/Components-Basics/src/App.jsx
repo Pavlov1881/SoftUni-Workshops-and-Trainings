@@ -1,5 +1,6 @@
 import MovieList from "./components/MovieList"
 import movies from "./assets/movies"
+import Movie from "./components/Movie"
 
 function App() {
 
